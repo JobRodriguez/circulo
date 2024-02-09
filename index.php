@@ -15,8 +15,17 @@
         <div class="row">
             <div class="col">
                 <label for="">Aumentar tamaño</label><br>
-                <button type="button" class="btn btn-outline-success" onclick="aumentar();">+</button>
-                <button type="button" class="btn btn-outline-danger" onclick="disminu();">-</button>
+                <label for="">Largo</label>
+                <button type="button" class="btn btn-outline-success" onclick="aumentarLargo();">+</button>
+                <button type="button" class="btn btn-outline-danger" onclick="disminuLargo();">-</button>
+                    <br>
+                    <label for="">Ancho</label>
+                <button type="button" class="btn btn-outline-success" onclick="aumentarAncho();">+</button>
+                <button type="button" class="btn btn-outline-danger" onclick="disminuAncho();">-</button>
+            </div>
+            <div class="col">
+                <label for="">Desaparecer o aparecer</label><br>
+                <button type="button" class="btn btn-outline-success" onclick="desaparecer();" id="desaparecer">Desaparecer</button>
             </div>
             <div class="col">
             <label for="">Cambiar color</label><br>
